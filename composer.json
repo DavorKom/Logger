@@ -22,7 +22,7 @@
                 "DavorKom\\Logger\\LoggerServiceProvider"
             ],
             "aliases": {
-                "Logger": "DavorKom\\Logger\\LoggerFacade"
+                "LoggerFacade": "DavorKom\\Logger\\LoggerFacade"
             }
         }
     }

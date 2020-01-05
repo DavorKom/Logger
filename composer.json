@@ -20,7 +20,10 @@
         "laravel": {
             "providers": [
                 "DavorKom\\Logger\\LoggerServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Logger": "DavorKom\\Logger\\LoggerFacade"
+            }
         }
     }
 }

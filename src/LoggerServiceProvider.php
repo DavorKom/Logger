@@ -13,6 +13,6 @@ class LoggerServiceProvider extends ServiceProvider
 
     public function register()
     {
-
+        $this->app->bind('logger', 'Logger');
     }
 }

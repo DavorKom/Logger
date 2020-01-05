@@ -1,5 +1,5 @@
 {
-    "name": "factory/logger",
+    "name": "davorkom/logger",
     "description": "Laravel package for logging.",
     "type": "library",
     "license": "MIT",

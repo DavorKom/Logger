@@ -1,6 +1,6 @@
 <?php
 
-namespace Factory\Logger;
+namespace DavorKom\Logger;
 
 use Illuminate\Support\Facades\Log;
 

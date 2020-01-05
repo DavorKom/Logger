@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Factory\\Logger\\": "src/"
+            "DavorKom\\Logger\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Factory\\Logger\\LoggerServiceProvider"
+                "DavorKom\\Logger\\LoggerServiceProvider"
             ]
         }
     }

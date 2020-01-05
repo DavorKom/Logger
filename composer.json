@@ -1,0 +1,26 @@
+{
+    "name": "factory/logger",
+    "description": "Laravel package for logging.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DavorKom",
+            "email": "komljenovic.davor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Factory\\Logger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Factory\\Logger\\LoggerServiceProvider"
+            ]
+        }
+    }
+}
